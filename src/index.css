@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin:0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+}
+#Light,body{
+  background-color: white;
+  color: #1E1E1E;
+  margin:0;
+}
+#Dark,body{
+  background-color: #1E1E1E;
+  color: white;
+  margin:0;
+}
+h2{background: linear-gradient(180deg, #1E1E1E 23.96%, rgba(30, 30, 30, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+  #Dark h2{
+    background: linear-gradient(180deg, #ffffff 23.96%, rgba(30, 30, 30, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+#Light nav{
+  background-color: white;
+}
+#Dark ,nav{
+  background-color: #1E1E1E;
+}
+#Dark .box {
+  border: 2px solid white;
+}
+#Dark .links h5{
+  color: rgb(202, 67, 202);
+}
+#Light .links h5{
+  color: rgb(120, 0, 120);
+}
+#Dark .links1,#Dark .links2{
+  color:rgba(255, 13, 245, 0.78);;
+}
+#Dark .Button{
+  background-color:rgb(202, 67, 202);;
+  color: #ffffff;
+}
+#Dark .Aboutbox{
+border: 2px solid white;
+}
+
+#Dark .sectionContainer ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
